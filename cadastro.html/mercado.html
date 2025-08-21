@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Livre - Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sistema de Mercado Livre</h1>
+
+    <section id="cadastro-consumidor">
+        <h2>Cadastro de Consumidor</h2>
+        <form>
+            <input type="text" placeholder="Nome" required><br>
+            <input type="text" placeholder="CPF" required><br>
+            <input type="text" placeholder="Endereço" required><br>
+            <input type="tel" placeholder="Telefone" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Senha" required><br>
+            <button type="submit">Cadastrar Consumidor</button>
+        </form>
+    </section>
+
+    <section id="cadastro-vendedor">
+        <h2>Cadastro de Vendedor</h2>
+        <form>
+            <input type="text" placeholder="Nome" required><br>
+            <input type="text" placeholder="CPF" required><br>
+            <input type="text" placeholder="Endereço" required><br>
+            <input type="tel" placeholder="Telefone" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Senha" required><br>
+            <input type="text" placeholder="Banco" required><br>
+            <input type="text" placeholder="Agência" required><br>
+            <input type="text" placeholder="Conta" required><br>
+            <button type="submit">Cadastrar Vendedor</button>
+        </form>
+    </section>
+
+    <section id="cadastro-produto">
+        <h2>Cadastro de Produto</h2>
+        <form>
+            <input type="file" accept="image/*" required><br>
+            <input type="text" placeholder="Nome do Produto" required><br>
+            <textarea placeholder="Descrição do Produto" required></textarea><br>
+            <input type="number" placeholder="Preço" required step="0.01"><br>
+            <input type="text" placeholder="Prazo de Entrega" required><br>
+            <button type="submit">Incluir Produto</button><br>
+            <button type="button">Alterar Produto</button><br>
+            <button type="button">Excluir Produto</button><br>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
